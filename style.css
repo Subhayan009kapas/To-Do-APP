@@ -1,0 +1,140 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: 'poppins' , sans-serif;
+}
+
+.container{
+          width: 100%;
+          min-height: 100vh;
+        
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          animation: slider 10s linear infinite;
+}
+@keyframes slider{
+  0%{
+    background-image: url("https://img.freepik.com/free-photo/moon-sky-night-background-asset-game-2d-futuristic-generative-ai_191095-2074.jpg?t=st=1718650666~exp=1718654266~hmac=054c2a84a5e3cf106da04201b2a31a28dbd67a52aee889b64197962926f3925e&w=1380");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  30%{
+    background-image: url("https://img.freepik.com/free-photo/digital-art-beautiful-mountains_23-2151123688.jpg?t=st=1718650570~exp=1718654170~hmac=e21f8911ed295d72591d4af2b40778a2fdcf7865a9faf63f0523ed1644ce394a&w=1380");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+ 
+  60%{
+    background-image: url("https://img.freepik.com/free-photo/moon-sky-night-background-asset-game-2d-futuristic-generative-ai_191095-2074.jpg?t=st=1718650666~exp=1718654266~hmac=054c2a84a5e3cf106da04201b2a31a28dbd67a52aee889b64197962926f3925e&w=1380");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  80%{
+    
+    background-image: url("https://img.freepik.com/free-photo/digital-art-beautiful-mountains_23-2151123688.jpg?t=st=1718650570~exp=1718654170~hmac=e21f8911ed295d72591d4af2b40778a2fdcf7865a9faf63f0523ed1644ce394a&w=1380");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  100%{
+    background-image: url("https://img.freepik.com/premium-photo/sky-ocean-wallpapers_902639-28804.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+.todo-app{
+ height: auto;
+ width: 400px;
+ background-color: #fff;
+ border: 2px solid transparent;
+ border-radius: 1.75rem;
+ box-shadow: 20px 20px 10px black;
+}
+.heading{
+          text-align: center;
+          font-size: 30px;
+}
+.input-box{
+          height: 50px;
+          width: 350px;
+          text-align: center;
+          margin-top: 30px;
+          border: 2px solid lightgray;
+          position: relative;
+          left: 25px;
+          border-radius: 25px;
+          background-color: lightgray;
+         
+       
+}
+.input-box .input{
+          height: 37px;
+          width: 200px;
+          outline: none;
+          border: none;
+          text-align: center;
+          font-size: 15px;
+          font-weight: bold;
+          background-color: lightgrey;
+     
+      
+          
+}
+.input-box  button{
+          height:49px ;
+        width: 130px;
+          outline: none;
+          border: none;
+          border-radius: 25px;
+          background-color:orangered;
+          font-weight: bold;
+          font-size: 15px;
+          position: relative;
+          left: 9px;
+          bottom: 2px;
+          cursor: pointer;
+
+
+}
+.list-con{
+          margin-top: 30px;
+}
+.list-con li{
+          list-style: none;
+          font-size: 20px;
+          padding: 10px;
+          user-select: none;
+          cursor: pointer;
+        
+}
+.checkbox-icon{
+          font-size: 25px;
+         
+        
+}    
+.new-list{
+        
+          background-color: lightgray;
+          margin: 12px;
+         
+        
+}
+.list-dec{
+          text-decoration: line-through;
+          background-color: lightgray;
+}
+.demo{
+  height: 10px;
+  width: 10px;
+  
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+.box{
+  height: 20px;
+  width: 10px;
+  border: 1px solid black;
+}
